@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhyApple</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Why Apple?</h1>
+      <p>Drag & Drop also supported</p>
+      <input multiple accept="image/heic, image/heif" type="file" name="file" id="file">
+      <p id="status"></p>
+      <h2 style="display: none" id="loader">Loading…</h2>
+    </div>
+    <script src="https://unpkg.com/@saschazar/wasm-heif@2.0.0/wasm_heif.js" async defer></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
